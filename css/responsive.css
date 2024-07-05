@@ -28,6 +28,10 @@
     padding: 30px;
   }
 
+  .formcontato__img {
+    gap: 50px;
+  }
+
   .formcontato__text,
   .formcontato--esquerda {
     display: inline-block;
@@ -88,13 +92,13 @@
     padding-bottom: 8px;
   }
 
-  /* Sessão About */
+
 
   .about__container {
     padding: 32px 0px;
   }
 
-  /* Sessão Hobbies */
+
 
   .skills,
   .hobbies {
@@ -107,15 +111,23 @@
 
   .skills__box,
   .hobbies__box {
-    flex: 1 1 30%;
-    height: 118px;
-    width: auto;
     flex-wrap: wrap;
+    height: 100px;
+    width: 1px;
+    box-sizing: border-box;
   }
 
   .academic {
     padding: 32px 0;
   }
+
+  .academic__courses__item__img {
+    width: 10;
+    height: 100;
+    box-sizing: border-box;
+  }
+
+
 
   .academic__courses {
     flex-wrap: wrap;
@@ -145,17 +157,33 @@
     font-size: 14px;
   }
 
+  .experience__img {
+    width: 800px;
+    height: 290px;
+  }
+
   .experience__button__repo,
   .experience__button__demo {
     width: 100%;
     font-size: 14px;
   }
 
+  .formcontato--esquerda {
+    display: none;
+  }
 
   .formcontato {
-   width: 100%;
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .formcontato__img {
+    display: none;
   }
 
   .footer {
     padding: 32px 0px;
-  }}
+  }
+}
